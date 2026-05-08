@@ -1,0 +1,376 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+2:regular,500,600,700,800" rel="stylesheet" />
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        *:not(h2) {
+            font-family: "Baloo 2";
+            font-weight: 700;
+        }
+        h2{
+            color: black;
+        }
+        body {
+            min-height: 100vh;
+            background-color: #ccc;
+        }
+        nav {
+            background-color: blue;
+            color: white;
+            padding: 25px 20px;
+            font-size: 1.2rem;
+            font-family: 'Baloo 2';
+            display: flex;
+            justify-content: space-between;
+        }
+        nav .logout {
+            background-color: transparent;
+            border: none;
+            color: white;
+            cursor: pointer;
+            font-weight: 600;
+            margin-right: 30px;
+        }
+        .form-container{ 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: white;
+            width: 35vw;
+            margin: 20px auto;
+            border-radius: 10px;
+            padding-block: 20px;
+            padding-inline: 20px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            width: 100%;
+        }
+        .buttons {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        .register {
+            background-color: blue;
+            color: white;
+            padding: 5px 30px;
+            border: none;
+            border-radius: 5px;
+            font-family: "Baloo 2";
+        }
+        .clear{
+            background-color: grey;
+            color: white;
+            padding: 5px 30px;
+            border: none;
+            border-radius: 5px;
+            font-family: "Baloo 2";
+        }
+        .contain {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <p>Welcome, User</p>
+        <button class="logout">Logout</button>
+    </nav>
+    <main>
+        <div class="form-container">
+            <form action="#" method="post">
+                <h2>Student Registration</h2>
+                <div class="name-con contain">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name">   
+                </div>
+                <div class="age-con contain">
+                    <label for="age">Age</label>
+                    <input type="number" id="age">
+                </div>
+                <div class="course-con contain">
+                    <label for="course">Select Course</label>
+                    <select name="Course" id="course">
+                        <option value="select" selected>--Select Course--</option>
+                        <option value="java">Java</option>
+                        <option value="python">Python</option>
+                    </select>
+                </div>
+                <div class="gender-con contain">
+                    <label for="gender">Gender</label>
+                    <div class="genders">
+                        <input type="radio" id="male" name="gender" value="male">
+                        <label for="male">Male</label>
+                        <input type="radio" id="female" name="gender" value="female">
+                        <label for="female">Female</label>
+                        <input type="radio" id="other" name="gender" value="other">
+                        <label for="female">Other</label>
+                    </div>
+                </div>
+                <div class="hobbies-con contain">
+                    <label for="hobbies">Hobbies</label>
+                    <div class="hobbies">
+                        <input type="checkbox" id="reading" name="hobbies" value="reading">
+                        <label for="reading">Reading</label>
+                        <input type="checkbox" id="music" name="hobbies" value="music">
+                        <label for="music">Music</label>
+                        <input type="checkbox" id="sports" name="hobbies" value="sports">
+                        <label for="music">Sports</label>
+                        <input type="checkbox" id="coding" name="hobbies" value="coding">
+                        <label for="music">Coding</label>
+                    </div>
+                </div>
+                <div class="date-con contain">
+                    <label for="date">Date of Birth</label>
+                    <input type="date" id="date">
+                </div>
+                <div class="email-con contain">
+                    <label for="email">Email</label>
+                    <input type="email" id="email">
+                </div>
+                <div class="mobile-con contain">
+                    <label for="mobile">Mobile</label>
+                    <input type="number" id="mobile">
+                </div>
+                <div class="add-con contain">
+                    <label for="add">Address</label>
+                    <textarea name="address" id="add" rows="3"></textarea>
+                </div>
+                <div class="buttons">
+                    <button type="submit" class="register">Register</button>
+                    <button type="reset" class="clear">Clear</button>
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+</html> -->
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f4f7f9;
+        }
+
+        /* Navbar Styling */
+        .navbar {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 14px;
+        }
+
+        .logout {
+            color: white;
+            text-decoration: none;
+        }
+
+        /* Form Container */
+        .container {
+            display: flex;
+            justify-content: center;
+            padding: 40px 20px;
+        }
+
+        .registration-form {
+            background: white;
+            width: 100%;
+            max-width: 500px;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            margin-bottom: 20px;
+            font-size: 22px;
+        }
+
+        /* Input Groupings */
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        .form-group label {
+            display: block;
+            font-weight: bold;
+            font-size: 13px;
+            margin-bottom: 5px;
+        }
+
+        input[type="text"],
+        input[type="number"],
+        input[type="email"],
+        input[type="tel"],
+        input[type="date"],
+        select,
+        textarea {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        /* Horizontal Radio and Checkbox alignment */
+        .radio-group, .checkbox-group {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            font-size: 14px;
+        }
+
+        .radio-group input, .checkbox-group input {
+            margin-right: -5px;
+        }
+
+
+        /* Buttons */
+        .button-group {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 20px;
+        }
+
+        button {
+            padding: 10px 25px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: bold;
+            color: white;
+        }
+
+        .btn-register {
+            background-color: #007bff;
+        }
+
+        .btn-clear {
+            background-color: #6c757d;
+        }
+
+        button:hover {
+            opacity: 0.9;
+        }
+
+
+    </style>
+</head>
+<body>
+
+    <nav class="navbar">
+        <span>Welcome, User</span>
+        <a href="#" class="logout">Logout</a>
+    </nav>
+
+    <main class="container">
+        <form class="registration-form">
+            <h2>Student Registration</h2>
+
+            <div class="form-group">
+                <label>Full Name</label>
+                <input type="text" name="fullname">
+            </div>
+
+            <div class="form-group">
+                <label>Age</label>
+                <input type="number" name="age">
+            </div>
+
+            <div class="form-group">
+                <label>Select Course</label>
+                <select name="course">
+                    <option value="">-- Select Course --</option>
+                    <option value="cs">Computer Science</option>
+                    <option value="it">Information Technology</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label>Gender</label>
+                <div class="radio-group">
+                    <input type="radio" name="gender" id="male"> <label for="male">Male</label>
+                    <input type="radio" name="gender" id="female"> <label for="female">Female</label>
+                    <input type="radio" name="gender" id="other"> <label for="other">Other</label>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label>Hobbies</label>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="reading"> <label for="reading">Reading</label>
+                    <input type="checkbox" id="music"> <label for="music">Music</label>
+                    <input type="checkbox" id="sports"> <label for="sports">Sports</label>
+                    <input type="checkbox" id="coding"> <label for="coding">Coding</label>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label>Date of Birth</label>
+                <input type="date" name="dob">
+            </div>
+
+            <div class="form-group">
+                <label>Email</label>
+                <input type="email" name="email">
+            </div>
+
+            <div class="form-group">
+                <label>Mobile</label>
+                <input type="tel" name="mobile">
+            </div>
+
+            <div class="form-group">
+                <label>Address</label>
+                <textarea name="address" rows="3"></textarea>
+            </div>
+
+            <div class="button-group">
+                <button type="submit" class="btn-register">Register</button>
+                <button type="reset" class="btn-clear">Clear</button>
+            </div>
+        </form>
+    </main>
+
+</body>
+</html>
