@@ -10,8 +10,6 @@ else:
 
 
 
-
-
 import shutil
 # x = shutil.move("Files/user.txt","2025_Python")
 # print(x)
