@@ -8,3 +8,8 @@ elif(theme == "dark"):
     
 age = 10
 print("YEs") if age > 18 else print("No") 
+
+
+age = 19
+ans = ("no", "yes")[age > 18]
+print(ans)
