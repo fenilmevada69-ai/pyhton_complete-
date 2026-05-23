@@ -48,5 +48,6 @@ identity operator(is, is not)
 #Relational/Comparision Operators -> ==, !=, >, <, >=, <= 
 #Assignment operators -> =, +=, -=, *=, /=, //=, %=, **= 
 #Logical Operators -> not and or
+#Matrix Multiplication -> @
 
 print(not True or not False)
