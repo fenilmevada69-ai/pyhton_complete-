@@ -13,3 +13,12 @@ print("YEs") if age > 18 else print("No")
 age = 19
 ans = ("no", "yes")[age > 18]
 print(ans)
+
+
+a = [1, 2]
+b = a
+
+print(a is b)   
+
+
+print("YEss") if age > 18 else print("No")
