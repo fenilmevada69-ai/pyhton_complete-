@@ -44,6 +44,18 @@ print(type(b))
 # print(f"value of a = {a}  value of b = {b}")
 # print(f"value of a = {type(a)}  value of b = {b}")
 
+
+
+# a = 2 + 6j
+# b = 3 + 3j
+
+# print(f"i am formated string {int(a.real)} and {int(b.imag)}")
+
+# print(r"C:\newfolder\test")   # wihtout r \n becomes new line 
+
+# fr - both formated + raw 
+# name = "Fenil"
+# print(fr"Hello {name}\new")
  
  
  
