@@ -77,3 +77,5 @@ print(type(b))
 #         print(f"div is {a/b}")
 #     case 4:
 #         print(f"mul is {a*b}")
+#     case _:
+#         print("Sorry invalid case!")
