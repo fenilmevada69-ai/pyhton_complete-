@@ -15,3 +15,8 @@ print(dic.items())
 
 sp  = " @"
 print(sp.isspace())
+
+
+text = "a,b,c"
+print(text.split(","))
+print(text.rsplit(","))
