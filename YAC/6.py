@@ -17,7 +17,6 @@
 
 
 
-
 # Normal Method
 # str = input("Enter your post: ")
 # if("harry" in str):
