@@ -1,27 +1,3 @@
-dic = {
-    "topic" : "Programming",
-    "subjects" : {
-        "C++" : 100,
-        "Java" : 80,
-        "C" : 60
-    }
-}
-
-
-
-print(dic.keys())
-print(dic.values())
-print(dic.items())
-
-sp  = " @"
-print(sp.isspace())
-
-
-text = "a,b,c"
-print(text.split(","))
-print(text.rsplit(","))
-
-
-d = "Ⅳ"
-print(d.isdigit())
-print(d.isnumeric())
+str = "Hello World!"
+print(str.endswith("!"))
+print(str.startswith("He"))
