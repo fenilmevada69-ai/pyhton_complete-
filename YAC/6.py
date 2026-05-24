@@ -7,8 +7,10 @@
 # print(str.replace("Hell", "Apa"))
 # print(str.find("World!"))
 # print(str.count("World!"))
-# print(str.partition("is"))
-# print(str.rpartition("is"))
+
+## partition returns an tuple (before_sep, separator, after_sep)
+# print(str.partition("is"))    # starts from left   
+# print(str.rpartition("is"))   # starts from right 
 
 
 

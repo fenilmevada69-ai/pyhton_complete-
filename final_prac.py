@@ -24,4 +24,17 @@ print(name.strip().isalnum())
 
 
 name = "hello World!"
-print(name.partition("lo"))
+print(name.rpartition("lo"))
+
+
+text = " hel    lo"
+# print(text.rpartition("-"))
+
+
+print(text.isspace())
+
+
+
+data = "javascriptaga"
+data = data.replace("a", "#", 3)
+print(data)
