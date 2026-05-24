@@ -76,15 +76,19 @@ print(b)
 
 
 
-
 li = [10, 20, 30, 40]
-a, b, c = li
+a, b, c, d = li
+print(li)
+print(a)
+print(b)
+print(c)
+print(d)
+a, b, *c = li
 print(li)
 print(a)
 print(b)
 print(c)
 # it is known as unpacking of list(like destructuring in js)
-
 
 
 
