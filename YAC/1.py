@@ -29,6 +29,7 @@ print(home)
 #complex number type
 a = 2 + 3j
 b = 2 + 3j
+print(a.real,b.imag)
 print(a+b)
 print(a-b)
 print(type(a))
