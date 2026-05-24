@@ -36,5 +36,11 @@ print(a,b)
 
 
 
-tuple = (2)
+tuple = (2,)
 print(tuple)
+print(type(tuple))
+
+tup1 = (1,2,3)
+tup2 = tup1
+
+print(tup1 is tup2)
