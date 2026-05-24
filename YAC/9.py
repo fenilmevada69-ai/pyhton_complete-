@@ -113,7 +113,3 @@ d1.clear()
 
 # ram 90 sita 77  ravan 66 
 # output  :{"ram":90,"sita":77,"ravan":66}
-
-
-print("moksh",end=" ")
-print("patel")
