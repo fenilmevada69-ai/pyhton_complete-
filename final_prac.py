@@ -21,3 +21,7 @@ name = "    iamfenilmevada    "
 print(name.title())
 print(name.strip())
 print(name.strip().isalnum())
+
+
+name = "hello World!"
+print(name.partition("lo"))
