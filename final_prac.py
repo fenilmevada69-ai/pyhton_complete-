@@ -11,14 +11,13 @@ print(str.find("ello"))
 print(str.count("ello"))
 print(str.partition("ello"))
 
-
-
-str = input("Enter text: ")
-if("harry" in str.lower()):
-    print("Harry is preset!")
-else:
-    print("Harry is not present!")
     
     
 email = "FMEADA86@GMAIL.COM"
 print(email.swapcase()) 
+
+
+name = "    iamfenilmevada    "
+print(name.title())
+print(name.strip())
+print(name.strip().isalnum())
