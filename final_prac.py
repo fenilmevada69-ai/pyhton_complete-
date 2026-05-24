@@ -38,3 +38,7 @@ print(text.isspace())
 data = "javascriptaga"
 data = data.replace("a", "#", 3)
 print(data)
+
+
+text = "a,b,c"
+print(text.rsplit(","))

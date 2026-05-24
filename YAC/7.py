@@ -84,3 +84,13 @@ print(a)
 print(b)
 print(c)
 # it is known as unpacking of list(like destructuring in js)
+
+
+
+
+
+
+
+nums = [True, False, True]
+print(any(nums))
+print(all(nums))

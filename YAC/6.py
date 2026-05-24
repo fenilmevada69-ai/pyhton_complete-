@@ -84,3 +84,9 @@ print(data.isprintable()) # \n
 data = "javascripta"
 data = data.replace("a", "#", 3)
 print(data)
+
+
+
+text = "a,b,c"
+print(text.split(","))
+print(text.rsplit(","))
