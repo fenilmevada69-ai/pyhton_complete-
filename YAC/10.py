@@ -21,7 +21,8 @@ em_set.add(10);
 em_set.add(20);   
 em_set.add(30);   
 em_set.add(40);   
-em_set.remove(10); 
+em_set.remove(10);  #error if item not found
+em_set.discard(10)  #no error if item not found
 # em_set.remove(7);   # key-error
 em_set.add("string");   # adding string
 em_set.add((1,2,3));   # adding tuple
