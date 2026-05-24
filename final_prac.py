@@ -1,3 +1,50 @@
-age = 19
+# str = "Hello World"
+# print(str.startswith("He"))
+# print(str.endswith("d"))
+# print(str.capitalize())
+# print(str.title())
+# print(str.swapcase())
+# print(str.upper())
+# print(str.lower())
+# print(str.count("Hell"))
+# print(str.find("Hell"))
+# print(str.isupper())
+# print(str.islower())
+# print(str.istitle())
+# print(str.isalnum())
+# print(str.isalpha())
+# print(str.isdigit())
+# print(str.isspace())
+# print(str.isdigit())
+# print(str.isnumeric())
+# print(str.isprintable())
+# print(str.strip())
+# print(str.lstrip())
+# print(str.rstrip())
+# print(str.replace("Hello", "by"))
+# print(str.partition("l"))
+# print(str.rpartition("l"))
+# print(str.split("l"))
+# print(str.rsplit("l"))
 
-ans = ("no", "yes")[age>18]
+
+
+
+li = [1,2,3,4]
+li1 = [4,5,6,6]
+li.extend(li1)
+print(li)
+li.append(99)
+print(li)
+li.insert(2,77)
+print(li)
+li.remove(77)
+print(li)
+li.pop(2)
+print(li)
+l2 = li.copy()
+print(l2)
+print(max(li))
+print(min(li))
+print(sum(li))
+print(sorted(li))
