@@ -87,6 +87,8 @@ print(data)
 
 
 
-text = "a,b,c"
+text = "a,b,c,d,e,f"
 print(text.split(","))
 print(text.rsplit(","))
+print(text.split(",",1))
+print(text.rsplit(",",1))

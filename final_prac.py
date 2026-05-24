@@ -20,3 +20,8 @@ print(sp.isspace())
 text = "a,b,c"
 print(text.split(","))
 print(text.rsplit(","))
+
+
+d = "Ⅳ"
+print(d.isdigit())
+print(d.isnumeric())
