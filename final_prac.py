@@ -42,3 +42,8 @@ print(data)
 
 text = "a,b,c"
 print(text.rsplit(","))
+
+
+name = "i am fenil mevada"
+print(name.capitalize())
+print(name.title())
