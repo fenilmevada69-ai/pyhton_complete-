@@ -447,34 +447,5 @@ g = my_generator()
 print(next(g))
 print(next(g))
 
-# =========================================================
-# 25. DECORATORS
-# =========================================================
 
-def decorator_func(func):
-
-    def wrapper():
-        print("Before function")
-        func()
-        print("After function")
-
-    return wrapper
-
-@decorator_func
-def hello():
-    print("Hello")
-
-hello()
-
-# =========================================================
-# 26. REGEX
-# =========================================================
-
-import re
-
-text = "My number is 9876543210"
-
-result = re.findall(r"\d+", text)
-
-print(result)
 
