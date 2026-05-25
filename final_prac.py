@@ -517,35 +517,3 @@ print(s)
 d = {x: x*x for x in range(5)}
 print(d)
 
-# =========================================================
-# 29. GLOBAL & LOCAL VARIABLES
-# =========================================================
-
-x = 100
-
-def test():
-    global x
-    x = 200
-    print(x)
-
-test()
-print(x)
-
-# =========================================================
-# 30. ENUM
-# =========================================================
-
-from enum import Enum
-
-class Days(Enum):
-    MON = 1
-    TUE = 2
-
-print(Days.MON)
-print(Days.MON.value)
-
-# =========================================================
-# END OF PYTHON CONCEPTS FILE
-# =========================================================
-
-print("\nPython Revision Completed!")
