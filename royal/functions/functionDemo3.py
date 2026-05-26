@@ -1,3 +1,4 @@
+
 def getUserData(age,salary,name):
     print(f"name  ={name}")
     print(f"Salary  ={salary}")
@@ -14,3 +15,19 @@ getUserData(23000,"pqr",23)
 #getUserData(age=23,name="amit",age=24) #error  keyword argument repeated: age
 #getUserData(23,name="amit",salary=34500)
 #getUserData(23,"ok",salary=34500) error...
+
+
+
+#position argument
+#keyword argument
+
+
+
+
+
+
+# Valid:
+# func(positional, positional, keyword, keyword)
+
+# Invalid:
+# func(positional, keyword, positional)
