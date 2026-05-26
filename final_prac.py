@@ -52,3 +52,15 @@ print(tup[1:])
 
 
 
+def greet(func):
+    print("Hello")
+    print("Work...")
+    func()
+
+def morning():
+    print("Good Morning!")
+
+def evening():
+    print("Good Evening!")
+    
+greet(evening)
