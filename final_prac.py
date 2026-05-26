@@ -21,3 +21,11 @@ x = {i[0] for i in "abcdefghijklmnopq" if i not in "abcde"}
 print(x)
 
 
+def data(*args):
+    def processData():
+        return [i**2 for i in args]
+    return processData
+
+
+x = data(1,2,3,4,5,6,7,8)
+print(x())
