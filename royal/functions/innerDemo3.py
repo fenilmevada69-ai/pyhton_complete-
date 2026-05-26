@@ -4,7 +4,7 @@ def getFullName(**kwargs):
         #return kwargs.get("name")+"-"+kwargs.get("lname")
         return "-".join(list(kwargs.values()))
     
-    return find()
+    return find
 
 
 x = getFullName(name="MahendraSingh",lname="Dhoni",nickname="thalla")

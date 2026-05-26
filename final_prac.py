@@ -29,3 +29,27 @@ def data(*args):
 
 x = data(1,2,3,4,5,6,7,8)
 print(x())
+
+
+
+words = ["i", "love", "python"]
+result = " ".join(words)
+print(result)
+
+
+
+
+def getFullName(**kwargs):
+    def data():
+        return "-".join(list(kwargs.values()))
+    return data
+
+x = getFullName(name="MahendraSingh", lname="Dhoni", nickname="thala")
+print(x())
+
+
+data =[1,2,3,4]
+
+#x = "-".join(data)
+x = "-".join(str(data))
+print(x)
