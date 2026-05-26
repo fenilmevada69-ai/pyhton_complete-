@@ -46,7 +46,7 @@ identity operator(is, is not)
 # print(input("Name: "))
 #Arithmetic Operators -> +, -, *, /, %, **
 #Relational/Comparision Operators -> ==, !=, >, <, >=, <= 
-#Assignment operators -> =, +=, -=, *=, /=, //=, %=, **= 
+#Assignment Operators -> =, +=, -=, *=, /=, //=, %=, **= 
 #Logical Operators -> not and or
 #Matrix Multiplication -> @
 
