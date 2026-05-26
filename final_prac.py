@@ -21,13 +21,24 @@ print(ans)
 
 print("================")
 def getUserData(**kwargs):
-    print(kwargs)
+    print(kwargs.items())
     
     
 getUserData(name="rahul", age=21, room=2002, xender="male")
-    
-    
-    
-    
-data = "I am string"
-print(type(data) == str)    
+
+
+
+
+print("=============================================================Start")
+
+
+def getData(*args):
+    flag = True
+    for i in args:
+        if not isinstance(i,str):
+            flag = False
+            break
+    return flag
+
+ans = getData("10","True","raj","karana","sita","None","jim")
+print(ans)
