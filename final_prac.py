@@ -42,3 +42,13 @@ def getData(*args):
 
 ans = getData("10",True,"raj","karana","sita","None","jim")
 print(ans)
+
+
+
+
+tup = (1,2,3,4,5)
+print(tup[1:])
+
+
+
+
