@@ -40,5 +40,5 @@ def getData(*args):
             break
     return flag
 
-ans = getData("10","True","raj","karana","sita","None","jim")
+ans = getData("10",True,"raj","karana","sita","None","jim")
 print(ans)
