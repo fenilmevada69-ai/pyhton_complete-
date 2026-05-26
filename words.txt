@@ -1,0 +1,2 @@
+type(num).__name__ ==> tuple
+match case
