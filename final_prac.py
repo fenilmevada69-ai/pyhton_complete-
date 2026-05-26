@@ -1,9 +1,22 @@
-li = [1,2,3,4]
+dic = {
+    "name" : "rahul",
+    "age"  : 20,
+    "topics" : ["Java", "c++" ,"C"],
+    "location" : {
+        "city" : "ahmedabad",
+        "state" : "gujrat",
+        "area" : "nikol",
+    }
+}
 
-li.append(5)
-print(li)
-l = [1,2,3,4,5]
-li.extend(l)
-print(li)
-li.clear()
-print(li)
+
+print(dic["name"])
+
+print(dic.keys())
+print(dic.values())
+print(dic.items())
+print(dic.get("name"))
+dic.clear()
+null_dic = {}
+null_dic.update({"name" : "rah", "age" : 20})
+print(null_dic)
